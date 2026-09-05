@@ -3,333 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JFT-Basic Prometric CBT Simulator</title>
+    <title>JFT-Basic CBT Simulator</title>
     <style>
-        :root {
-            --primary-bg: #e6e9ed;
-            --header-bg: #2c3e50;
-            --text-main: #333;
-            --white: #fff;
-            --highlight: #3498db;
-            --btn-bg: #ecf0f1;
-            --btn-border: #bdc3c7;
-            --danger: #e74c3c;
-            --success: #2ecc71;
-        }
-
-        * { box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-
-        body {
-            margin: 0; padding: 0;
-            background-color: var(--primary-bg);
-            color: var(--text-main);
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-        }
-
-        header {
-            background-color: var(--header-bg);
-            color: var(--white);
-            padding: 15px 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 1.1rem;
-        }
-
-        .header-left, .header-right { display: flex; gap: 20px; align-items: center; }
-        
-        .timer-box {
-            background: #000;
-            color: #0f0;
-            padding: 5px 15px;
-            font-family: monospace;
-            font-size: 1.5rem;
-            border-radius: 4px;
-        }
-
-        .container {
-            flex-grow: 1;
-            max-width: 1000px;
-            margin: 20px auto;
-            width: 100%;
-            background: var(--white);
-            border: 1px solid var(--btn-border);
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            display: flex;
-            flex-direction: column;
-        }
-
-        .view { display: none; padding: 30px; }
+        :root { --primary: #004b87; --bg: #f4f6f9; --text: #333; --border: #ddd; --danger: #dc3545; --success: #28a745; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); margin: 0; display: flex; flex-direction: column; height: 100vh; }
+        header { background: var(--primary); color: white; padding: 15px 20px; display: flex; justify-content: space-between; font-size: 1.1rem; }
+        .container { flex-grow: 1; max-width: 900px; margin: 30px auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 100%; }
+        .view { display: none; }
         .view.active { display: block; }
-
-        .btn {
-            padding: 10px 20px;
-            font-size: 1rem;
-            cursor: pointer;
-            border: 1px solid var(--btn-border);
-            background: var(--btn-bg);
-            border-radius: 4px;
-            transition: 0.2s;
-        }
-        .btn:hover:not(:disabled) { background: #d5dbdb; }
-        .btn-primary { background: var(--highlight); color: white; border: none; }
-        .btn-primary:hover:not(:disabled) { background: #2980b9; }
-        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
-
-        .content-area { flex-grow: 1; font-size: 1.2rem; line-height: 1.6; }
-
-        .audio-player {
-            background: #f8f9fa;
-            border: 2px solid #dee2e6;
-            padding: 15px;
-            margin-bottom: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-radius: 5px;
-        }
-
-        .options-container { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
-
-        .option-lbl {
-            padding: 15px;
-            border: 2px solid var(--btn-border);
-            border-radius: 5px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-        .option-lbl:hover { border-color: var(--highlight); background: #f0f8ff; }
-        .option-lbl input[type="radio"] { transform: scale(1.5); }
-
-        .cbt-footer {
-            padding: 20px 30px;
-            background: #fdfdfd;
-            border-top: 1px solid var(--btn-border);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .progress-map { display: flex; gap: 5px; }
-        .prog-dot {
-            width: 15px; height: 15px;
-            border-radius: 50%;
-            background: var(--btn-border);
-        }
-        .prog-dot.answered { background: var(--highlight); }
-        .prog-dot.current { box-shadow: 0 0 0 3px #f1c40f; }
-
-        .result-box { text-align: center; }
-        .score-circle {
-            width: 150px; height: 150px;
-            border-radius: 50%;
-            background: var(--header-bg);
-            color: white;
-            font-size: 2.5rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 20px auto;
-        }
-        .pass-text { color: var(--success); font-weight: bold; font-size: 1.5rem; }
-        .fail-text { color: var(--danger); font-weight: bold; font-size: 1.5rem; }
+        .timer-box { font-size: 1.5rem; font-weight: bold; color: var(--danger); }
+        .btn { padding: 12px 24px; background: var(--primary); color: white; border: none; border-radius: 4px; font-size: 16px; cursor: pointer; transition: 0.2s; }
+        .btn:hover { background: #003366; }
+        .btn:disabled { background: #aaa; cursor: not-allowed; }
+        .option-label { display: flex; align-items: center; padding: 15px; border: 1px solid var(--border); border-radius: 6px; cursor: pointer; margin-bottom: 10px; font-size: 1.1rem; }
+        .option-label:hover { background: #f8f9fa; border-color: var(--primary); }
+        .option-label input { margin-right: 15px; transform: scale(1.3); }
+        .cbt-footer { display: flex; justify-content: space-between; border-top: 2px solid var(--border); padding-top: 20px; margin-top: 20px; }
+        .audio-ui { background: #e9ecef; padding: 15px; border-radius: 6px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
+        .score-circle { width: 150px; height: 150px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 3rem; margin: 20px auto; }
     </style>
 </head>
 <body>
 
     <header>
-        <div class="header-left">
-            <span>JFT-Basic: Japan Foundation Test for Basic Japanese</span>
-        </div>
-        <div class="header-right">
-            <span id="section-display">Welcome</span>
-            <div class="timer-box" id="time-display">60:00</div>
-        </div>
+        <div>JFT-Basic Prometric CBT Engine</div>
+        <div class="timer-box" id="time-display">60:00</div>
     </header>
 
     <div class="container">
-        <!-- Landing / Rules Screen -->
+        <!-- Landing Screen -->
         <div id="view-intro" class="view active">
-            <h2>Test Regulations & Instructions</h2>
-            <ul>
-                <li><strong>Total Time:</strong> 60 Minutes.</li>
-                <li><strong>Structure:</strong> 4 Sections (Script & Vocabulary, Conversation & Expression, Listening Comprehension, Reading Comprehension).</li>
-                <li><strong>Navigation:</strong> You may navigate freely within a section. However, once you click "Submit Section", you cannot return.</li>
-                <li><strong>Listening Rule:</strong> In the Listening section, questions must be answered sequentially. Audio tracks can only be played a maximum of <strong>2 times</strong>.</li>
-                <li><strong>Scoring:</strong> Equated scale of 10 to 250 points. A score of 200+ is required to achieve the A2 standard.</li>
-            </ul>
-            <div style="text-align: center; margin-top: 40px;">
-                <button class="btn btn-primary" style="font-size: 1.2rem; padding: 15px 30px;" onclick="startExam()">Start Assessment</button>
-            </div>
+            <h2 style="color: var(--primary);">SSW Visa Practice Assessment</h2>
+            <p>This test replicates the official Prometric exam format. You have 60 minutes to complete all sections. A score of 200 or higher is required to pass.</p>
+            <button class="btn" onclick="startExam()">Begin 60-Minute Assessment</button>
         </div>
 
         <!-- Exam Screen -->
-        <div id="view-exam" class="view" style="display: flex; flex-direction: column; height: 100%; padding: 0;">
-            <div class="content-area" style="padding: 30px;">
-                
-                <div class="audio-player" id="audio-ui" style="display: none;">
-                    <div>
-                        <strong>🔊 Listening Task</strong>
-                        <div style="font-size: 0.9rem; color: #666;">Playback limit: 2 times</div>
-                    </div>
-                    <div>
-                        <button class="btn btn-primary" id="btn-play-audio" onclick="playAudio()">Play Audio ▶</button>
-                        <span id="audio-count" style="margin-left: 15px; font-weight: bold;">0 / 2</span>
-                    </div>
+        <div id="view-exam" class="view">
+            <h3 id="section-title" style="color: var(--primary);"></h3>
+            
+            <div class="audio-ui" id="audio-ui" style="display: none;">
+                <span>🔊 Listening Task (Max 2 Plays)</span>
+                <div>
+                    <button class="btn" id="play-btn" onclick="playAudio()" style="padding: 8px 16px;">Play Audio ▶</button>
+                    <span id="audio-count" style="margin-left: 10px; font-weight: bold;">0 / 2</span>
                 </div>
-
-                <div id="question-text" style="margin-bottom: 25px;"></div>
-                
-                <div class="options-container" id="options-container"></div>
             </div>
 
+            <div id="question-text" style="font-size: 1.2rem; margin-bottom: 20px;"></div>
+            <div id="options-container"></div>
+
             <div class="cbt-footer">
-                <button class="btn" id="btn-prev" onclick="navigate(-1)">◀ Previous</button>
-                <div class="progress-map" id="progress-map"></div>
-                <button class="btn" id="btn-next" onclick="navigate(1)">Next ▶</button>
-                <button class="btn btn-primary" id="btn-submit-section" style="display: none; background: var(--danger);" onclick="submitSection()">Submit Section 🔒</button>
+                <button class="btn" id="btn-next" onclick="nextQuestion()">Next Question ▶</button>
+                <button class="btn" id="btn-submit" onclick="submitExam()" style="display: none; background: var(--danger);">Submit Exam 🔒</button>
             </div>
         </div>
 
         <!-- Results Screen -->
-        <div id="view-results" class="view result-box">
-            <h2>Official Assessment Complete</h2>
-            <p>Your raw performance has been statistically equated to the official 10–250 point scale.</p>
-            
-            <div class="score-circle" id="final-score">210</div>
-            
-            <div id="cefr-level"></div>
-            <p id="feedback-desc" style="max-width: 600px; margin: 20px auto; line-height: 1.6;"></p>
-            
-            <button class="btn btn-primary" onclick="location.reload()">Return to Main Menu</button>
+        <div id="view-results" class="view" style="text-align: center;">
+            <h2>Assessment Complete</h2>
+            <p>Your official equated score (10 - 250 scale):</p>
+            <div class="score-circle" id="final-score"></div>
+            <h3 id="pass-fail-status"></h3>
+            <p id="feedback-desc"></p>
+            <button class="btn" onclick="location.reload()" style="margin-top: 20px;">Return to Main Menu</button>
         </div>
     </div>
 
     <script>
-        const examDatabase = [
-            {
-                sectionId: 1,
-                sectionName: "Script and Vocabulary (文字と語彙)",
-                questions: [
-                    {
-                        q: "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block;'>会社</span>",
-                        options: ["かいしゃ (kaisha)", "がっこう (gakkou)", "しごと (shigoto)", "としょかん (toshokan)"],
-                        answer: 0
-                    },
-                    {
-                        q: "（  ）に 何が 入りますか。<br><br>わたしは 毎日 バス（  ） 会社へ 行きます。",
-                        options: ["が", "を", "で", "に"],
-                        answer: 2
-                    }
-                ]
-            },
-            {
-                sectionId: 2,
-                sectionName: "Conversation and Expression (会話と表現)",
-                questions: [
-                    {
-                        q: "正しい 丁寧な言い方（けいご）を 選んでください。<br><br>先生に 聞きます。<br>「先生、この 言葉の 意味を（   ）。」",
-                        options: ["教えてください", "教えなさい", "教えますか", "教えましょう"],
-                        answer: 0
-                    },
-                    {
-                        q: "A: 「あした、一緒に 映画を 見に行きませんか。」<br>B: 「あしたは ちょっと……。」<br><br>Bさんは あした 映画に 行きますか。",
-                        options: ["はい、行きます。", "いいえ、行きません。", "映画館で 会います。", "わかりません。"],
-                        answer: 1
-                    }
-                ]
-            },
-            {
-                sectionId: 3,
-                sectionName: "Listening Comprehension (聴解)",
-                isListening: true,
-                questions: [
-                    {
-                        q: "音声を聞いて、質問に答えてください。<br><i style='color: #666;'>(Simulated Audio: A department store announcement states the store is closing in 15 minutes.)</i><br><br>デパートは、あと 何分で 閉まりますか。",
-                        options: ["5分", "10分", "15分", "30分"],
-                        answer: 2
-                    }
-                ]
-            },
-            {
-                sectionId: 4,
-                sectionName: "Reading Comprehension (読解)",
-                questions: [
-                    {
-                        q: "この 標識（サイン）は どういう 意味ですか。<br><br><div style='background: red; color: white; padding: 15px; font-weight: bold; display: inline-block; border: 3px solid black;'>立入禁止</div>",
-                        options: ["ここから 入ってください。", "ここは 入ってはいけません。", "ここで 止まってください。", "ここで 走らないでください。"],
-                        answer: 1
-                    }
-                ]
-            }
+        let questions = [];
+        let currentIndex = 0;
+        let correctAnswers = 0;
+        let timeRemaining = 3600; 
+        let timerInterval;
+        let audioPlayCounts = {};
+
+        // Static questions for Grammar, Listening, and Reading
+        const staticQuestions = [
+            { section: "Conversation and Expression", q: "A: 「あした、一緒に 映画を 見に行きませんか。」<br>B: 「あしたは ちょっと……。」<br><br>Bさんは あした 映画に 行きますか。", options: ["はい、行きます。", "いいえ、行きません。", "映画館で 会います。", "わかりません。"], answer: 1, isAudio: false },
+            { section: "Listening Comprehension", q: "音声を聞いて答えてください。<br><i>(Audio: Department store closing announcement)</i><br><br>デパートはあと何分で閉まりますか。", options: ["5分", "10分", "15分", "30分"], answer: 2, isAudio: true },
+            { section: "Reading Comprehension", q: "この標識はどういう意味ですか。<br><br><b style='color:red; font-size: 1.5rem;'>【立入禁止】</b>", options: ["ここから入ってください。", "ここは入ってはいけません。", "ここで止まってください。", "走らないでください。"], answer: 1, isAudio: false }
         ];
 
-        let state = {
-            sectionIdx: 0,
-            questionIdx: 0,
-            answers: [],
-            audioPlayCounts: {},
-            timeLeft: 3600, 
-            timerId: null
-        };
+        async function startExam() {
+            try {
+                // Fetch the JSON file you generated with Python
+                const response = await fetch('./vocab_questions.json');
+                if (!response.ok) throw new Error("JSON not found");
+                const vocabData = await response.json();
+                
+                // Add a section label to the generated vocab questions
+                const formattedVocab = vocabData.map(q => ({ section: "Script and Vocabulary", q: q.q, options: q.options, answer: q.answer, isAudio: false }));
+                
+                // Combine Python questions with static questions
+                questions = [...formattedVocab, ...staticQuestions];
+            } catch (error) {
+                alert("Could not load vocab_questions.json. Make sure you ran the Python script and uploaded the JSON file to GitHub alongside index.html! Loading default questions instead.");
+                questions = [...staticQuestions];
+            }
 
-        function initData() {
-            state.answers = examDatabase.map(sec => new Array(sec.questions.length).fill(null));
-        }
-
-        function startExam() {
-            initData();
             document.getElementById('view-intro').classList.remove('active');
             document.getElementById('view-exam').classList.add('active');
-            
-            state.timerId = setInterval(updateTimer, 1000);
+            timerInterval = setInterval(updateTimer, 1000);
             renderQuestion();
         }
 
         function updateTimer() {
-            state.timeLeft--;
-            const m = Math.floor(state.timeLeft / 60).toString().padStart(2, '0');
-            const s = (state.timeLeft % 60).toString().padStart(2, '0');
+            timeRemaining--;
+            let m = Math.floor(timeRemaining / 60).toString().padStart(2, '0');
+            let s = (timeRemaining % 60).toString().padStart(2, '0');
             document.getElementById('time-display').innerText = `${m}:${s}`;
-            
-            if (state.timeLeft <= 0) {
-                clearInterval(state.timerId);
-                finishExam();
-            }
+            if (timeRemaining <= 0) submitExam();
         }
 
         function renderQuestion() {
-            const currentSectionData = examDatabase[state.sectionIdx];
-            const currentQ = currentSectionData.questions[state.questionIdx];
-            const isListening = currentSectionData.isListening;
+            const q = questions[currentIndex];
+            document.getElementById('section-title').innerText = `${currentIndex + 1}/${questions.length} - ${q.section}`;
+            document.getElementById('question-text').innerHTML = q.q;
 
-            document.getElementById('section-display').innerText = `Section ${state.sectionIdx + 1}/4: ${currentSectionData.sectionName}`;
-
-            const mapHtml = currentSectionData.questions.map((_, idx) => {
-                let classes = 'prog-dot';
-                if (idx === state.questionIdx) classes += ' current';
-                if (state.answers[state.sectionIdx][idx] !== null) classes += ' answered';
-                return `<div class="${classes}"></div>`;
-            }).join('');
-            document.getElementById('progress-map').innerHTML = mapHtml;
-
-            document.getElementById('question-text').innerHTML = `<strong>Q${state.questionIdx + 1}.</strong> ${currentQ.q}`;
-
+            // Handle Audio Mechanics
             const audioUi = document.getElementById('audio-ui');
-            if (isListening) {
+            if (q.isAudio) {
                 audioUi.style.display = 'flex';
-                const audioKey = `${state.sectionIdx}-${state.questionIdx}`;
-                const plays = state.audioPlayCounts[audioKey] || 0;
+                let plays = audioPlayCounts[currentIndex] || 0;
                 document.getElementById('audio-count').innerText = `${plays} / 2`;
+                const playBtn = document.getElementById('play-btn');
                 
-                const playBtn = document.getElementById('btn-play-audio');
                 if (plays >= 2) {
                     playBtn.disabled = true;
-                    playBtn.innerText = "Playback Limit Reached";
+                    playBtn.innerText = "Limit Reached";
                 } else {
                     playBtn.disabled = false;
                     playBtn.innerText = "Play Audio ▶";
@@ -337,116 +139,65 @@
             } else {
                 audioUi.style.display = 'none';
             }
+            
+            document.getElementById('options-container').innerHTML = q.options.map((opt, i) => `
+                <label class="option-label">
+                    <input type="radio" name="answer" value="${i}"> ${opt}
+                </label>
+            `).join('');
 
-            const optionsHtml = currentQ.options.map((opt, idx) => {
-                const isChecked = state.answers[state.sectionIdx][state.questionIdx] === idx ? 'checked' : '';
-                return `
-                    <label class="option-lbl" onclick="selectAnswer(${idx})">
-                        <input type="radio" name="opt" value="${idx}" ${isChecked}>
-                        ${opt}
-                    </label>
-                `;
-            }).join('');
-            document.getElementById('options-container').innerHTML = optionsHtml;
-
-            const btnPrev = document.getElementById('btn-prev');
-            const btnNext = document.getElementById('btn-next');
-            const btnSubmit = document.getElementById('btn-submit-section');
-
-            if (isListening) {
-                btnPrev.style.display = 'none'; 
-            } else {
-                btnPrev.style.display = state.questionIdx > 0 ? 'block' : 'none';
-            }
-
-            if (state.questionIdx === currentSectionData.questions.length - 1) {
-                btnNext.style.display = 'none';
-                btnSubmit.style.display = 'block';
-            } else {
-                btnNext.style.display = 'block';
-                btnSubmit.style.display = 'none';
-            }
+            document.getElementById('btn-next').style.display = currentIndex === questions.length - 1 ? 'none' : 'block';
+            document.getElementById('btn-submit').style.display = currentIndex === questions.length - 1 ? 'block' : 'none';
         }
 
         function playAudio() {
-            const audioKey = `${state.sectionIdx}-${state.questionIdx}`;
-            if (!state.audioPlayCounts[audioKey]) state.audioPlayCounts[audioKey] = 0;
-            
-            if (state.audioPlayCounts[audioKey] < 2) {
-                state.audioPlayCounts[audioKey]++;
-                alert("🔊 Playing audio track... (This simulates exam audio playback)");
+            if (!audioPlayCounts[currentIndex]) audioPlayCounts[currentIndex] = 0;
+            if (audioPlayCounts[currentIndex] < 2) {
+                audioPlayCounts[currentIndex]++;
+                alert("🔊 Playing audio track... (Simulating real exam playback)");
                 renderQuestion(); 
             }
         }
 
-        function selectAnswer(idx) {
-            state.answers[state.sectionIdx][state.questionIdx] = idx;
-            renderQuestion(); 
-        }
-
-        function navigate(dir) {
-            state.questionIdx += dir;
+        function nextQuestion() {
+            const selected = document.querySelector('input[name="answer"]:checked');
+            if (!selected) return alert("Please select an answer.");
+            
+            if (parseInt(selected.value) === questions[currentIndex].answer) correctAnswers++;
+            currentIndex++;
             renderQuestion();
         }
 
-        function submitSection() {
-            const isLastSection = state.sectionIdx === examDatabase.length - 1;
-            const msg = isLastSection 
-                ? "Submit entire exam? You cannot return." 
-                : "Submit this section? You CANNOT return to these questions.";
-            
-            if (confirm(msg)) {
-                if (isLastSection) {
-                    finishExam();
-                } else {
-                    state.sectionIdx++;
-                    state.questionIdx = 0;
-                    renderQuestion();
-                }
-            }
-        }
+        function submitExam() {
+            clearInterval(timerInterval);
+            const selected = document.querySelector('input[name="answer"]:checked');
+            if (selected && parseInt(selected.value) === questions[currentIndex].answer) correctAnswers++;
 
-        function finishExam() {
-            clearInterval(state.timerId);
+            // JFT-Basic 10-250 Equating Scale
+            let rawPercent = correctAnswers / questions.length;
+            let scaledScore = Math.floor((rawPercent * 240) + 10);
+            if (scaledScore < 10) scaledScore = 10;
+
             document.getElementById('view-exam').classList.remove('active');
             document.getElementById('view-results').classList.add('active');
-            document.getElementById('time-display').style.display = 'none';
-            document.getElementById('section-display').innerText = "Results";
-
-            let totalQ = 0;
-            let correctQ = 0;
-
-            examDatabase.forEach((sec, sIdx) => {
-                sec.questions.forEach((q, qIdx) => {
-                    totalQ++;
-                    if (state.answers[sIdx][qIdx] === q.answer) correctQ++;
-                });
-            });
-
-            let rawPercent = correctQ / totalQ;
-            let scaledScore = Math.floor((rawPercent * 240) + 10);
             
-            if (scaledScore < 10) scaledScore = 10;
-            if (scaledScore > 250) scaledScore = 250;
-
             document.getElementById('final-score').innerText = scaledScore;
-
-            const cefrDiv = document.getElementById('cefr-level');
+            
+            const status = document.getElementById('pass-fail-status');
             const desc = document.getElementById('feedback-desc');
-
+            
             if (scaledScore >= 200) {
-                cefrDiv.innerHTML = "<span class='pass-text'>Level Achieved: A2.2 (Pass)</span>";
+                status.innerText = "Level: A2.2 (Pass)";
+                status.style.color = "var(--success)";
                 desc.innerText = "Congratulations! You have met the Japanese language requirement for the Specified Skilled Worker (SSW) visa.";
             } else if (scaledScore >= 175) {
-                cefrDiv.innerHTML = "<span style='color: #f39c12; font-size: 1.5rem; font-weight: bold;'>Level Achieved: A2.1 (Fail)</span>";
-                desc.innerText = "You have reached A1 and are progressing toward A2.2, but you did not meet the 200-point requirement. Review Irodori Elementary materials.";
-            } else if (scaledScore >= 145) {
-                cefrDiv.innerHTML = "<span class='fail-text'>Level Achieved: A1 (Fail)</span>";
-                desc.innerText = "You have met the A1 criteria. Focus on Irodori Starter and everyday vocabulary to reach the SSW A2 standard.";
+                status.innerText = "Level: A2.1 (Fail)";
+                status.style.color = "#f39c12";
+                desc.innerText = "You are close to the A2 level but did not meet the 200-point requirement. Review Irodori Elementary materials.";
             } else {
-                cefrDiv.innerHTML = "<span class='fail-text'>Level Achieved: * (Below A1)</span>";
-                document.getElementById('final-score').innerText = "*";
-                desc.innerText = "Scores below 145 do not receive a CEFR assessment. Foundational review using Irodori Starter is highly recommended.";
+                status.innerText = "Level: A1 (Fail)";
+                status.style.color = "var(--danger)";
+                desc.innerText = "Focus on foundational vocabulary and daily expressions from Irodori Starter.";
             }
         }
     </script>
