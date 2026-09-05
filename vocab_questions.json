@@ -1,0 +1,62 @@
+[
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block;'>会社</span>",
+        "options": [
+            "Hospital",
+            "Bank",
+            "Company",
+            "School"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block;'>学校</span>",
+        "options": [
+            "Bank",
+            "Library",
+            "Job",
+            "School"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block;'>仕事</span>",
+        "options": [
+            "School",
+            "Hospital",
+            "Bank",
+            "Job"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block;'>図書館</span>",
+        "options": [
+            "Library",
+            "Bank",
+            "Hospital",
+            "Job"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block;'>銀行</span>",
+        "options": [
+            "Job",
+            "Library",
+            "Bank",
+            "School"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block;'>病院</span>",
+        "options": [
+            "Hospital",
+            "Job",
+            "Library",
+            "School"
+        ],
+        "answer": 0
+    }
+]
