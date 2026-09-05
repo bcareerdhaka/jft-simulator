@@ -89,22 +89,19 @@
             try {
                 const response = await fetch('./vocab_questions.json');
                 if (!response.ok) throw new Error("JSON not found");
-                const allVocab = await response.json();
+                const allItems = await response.json();
                 
-                // Shuffle all 500 questions and take 50 for a full test
-                const shuffledVocab = allVocab.sort(() => 0.5 - Math.random()).slice(0, 50);
-                
-                const formattedVocab = shuffledVocab.map(q => ({
-                    section: "Script and Vocabulary",
-                    q: q.q,
-                    options: q.options,
-                    answer: q.answer,
-                    isAudio: false
-                }));
-                
-                questions = [...formattedVocab, ...staticQuestions];
+                // Separate by section to create a balanced exam
+                const vocabPool = allItems.filter(q => q.section.includes("文字と語彙"));
+                const grammarPool = allItems.filter(q => q.section.includes("文法・表現"));
+
+                // Take 25 vocab + 20 grammar + static questions for listening/reading
+                const sampledVocab = vocabPool.sort(() => 0.5 - Math.random()).slice(0, 25);
+                const sampledGrammar = grammarPool.sort(() => 0.5 - Math.random()).slice(0, 20);
+
+                questions = [...sampledVocab, ...sampledGrammar, ...staticQuestions];
             } catch (error) {
-                alert("Could not load vocab_questions.json. Falling back to default questions.");
+                alert("Could not load questions file. Falling back to built-in items.");
                 questions = [...staticQuestions];
             }
 
