@@ -1,61 +1,5001 @@
 [
     {
-        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block;'>会社</span>",
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>図書館</span>",
         "options": [
-            "Hospital",
-            "Bank",
-            "Company",
-            "School"
+            "Medicine",
+            "Luggage / Package",
+            "Library",
+            "Helmet"
         ],
         "answer": 2
     },
     {
-        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block;'>学校</span>",
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>残業</span>",
         "options": [
-            "Bank",
-            "Library",
-            "Job",
-            "School"
+            "きゅうりょう (Salary)",
+            "ざんぎょう (Overtime work)",
+            "じゅんび (Preparation)",
+            "ていしょく (Set meal)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>連絡</span>",
+        "options": [
+            "こしょう (Broken / Out of order)",
+            "やくそく (Appointment / Promise)",
+            "れんらく (Contact)",
+            "ていきゅうび (Regular closing day)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>風邪</span>",
+        "options": [
+            "ぎんこう (Bank)",
+            "かいしゃ (Company)",
+            "りょうしゅうしょ (Receipt)",
+            "かぜ (Cold (illness))"
         ],
         "answer": 3
     },
     {
-        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block;'>仕事</span>",
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>無料</span>",
         "options": [
-            "School",
-            "Hospital",
-            "Bank",
-            "Job"
-        ],
-        "answer": 3
-    },
-    {
-        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block;'>図書館</span>",
-        "options": [
-            "Library",
-            "Bank",
-            "Hospital",
-            "Job"
+            "むりょう (Free of charge)",
+            "ずつう (Headache)",
+            "ていきゅうび (Regular closing day)",
+            "じむしつ (Office room)"
         ],
         "answer": 0
     },
     {
-        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block;'>銀行</span>",
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>郵便局</span>",
         "options": [
-            "Job",
             "Library",
-            "Bank",
-            "School"
+            "Trash bin",
+            "Chair",
+            "Post office"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "事務室",
+            "先生",
+            "書類",
+            "買い物"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>営業時間</span>",
+        "options": [
+            "えいぎょうじかん (Business hours)",
+            "れんらく (Contact)",
+            "しょるい (Documents)",
+            "りょうしゅうしょ (Receipt)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>荷物</span>",
+        "options": [
+            "Question",
+            "Set meal",
+            "Luggage / Package",
+            "End"
         ],
         "answer": 2
     },
     {
-        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block;'>病院</span>",
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レジで （  ）を もらいました。</p>",
+        "options": [
+            "約束",
+            "学校",
+            "会社",
+            "有料"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>洗濯</span>",
+        "options": [
+            "じかん (Time / Hours)",
+            "せんたく (Laundry)",
+            "てぶくろ (Gloves)",
+            "やくそく (Appointment / Promise)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>友達</span>",
+        "options": [
+            "Helmet",
+            "Documents",
+            "Friend",
+            "Half price"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "案内",
+            "荷物",
+            "残業",
+            "会社"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "掃除",
+            "準備中",
+            "時間",
+            "電話"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会議室</span>",
+        "options": [
+            "きんえん (No smoking)",
+            "かいぎしつ (Meeting room)",
+            "げんきん (Cash)",
+            "でんげん (Power switch)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "受付",
+            "電話番号",
+            "質問",
+            "作業着"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>営業時間</span>",
+        "options": [
+            "がいこくじん (Foreigner)",
+            "えいぎょうじかん (Business hours)",
+            "むりょう (Free of charge)",
+            "そうだん (Consultation)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>手紙</span>",
+        "options": [
+            "ちかてつ (Subway)",
+            "えいぎょうじかん (Business hours)",
+            "てがみ (Letter)",
+            "むりょう (Free of charge)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>医者</span>",
+        "options": [
+            "たちいりきんし (Do not enter)",
+            "いしゃ (Doctor)",
+            "でんわ (Telephone)",
+            "やくそく (Appointment / Promise)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>出口</span>",
+        "options": [
+            "てぶくろ (Gloves)",
+            "いしゃ (Doctor)",
+            "じむしつ (Office room)",
+            "でぐち (Exit)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>給料</span>",
+        "options": [
+            "きゅうりょう (Salary)",
+            "とけい (Clock / Watch)",
+            "ほうこく (Report)",
+            "うけつけ (Reception desk)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>郵便局</span>",
+        "options": [
+            "Post office",
+            "Order (food)",
+            "Reception desk",
+            "No smoking"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "電源",
+            "時間",
+            "割引",
+            "安全靴"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>ここは あぶないですから、（  ）の サインを 見てください。</p>",
+        "options": [
+            "椅子",
+            "切手",
+            "注意",
+            "使用中"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>禁煙</span>",
+        "options": [
+            "きんえん (No smoking)",
+            "ずつう (Headache)",
+            "かいしゃ (Company)",
+            "いしゃ (Doctor)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>危険</span>",
+        "options": [
+            "ていしょく (Set meal)",
+            "びょういん (Hospital)",
+            "きけん (Danger)",
+            "そうじ (Cleaning)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>案内</span>",
+        "options": [
+            "あんない (Guidance / Information)",
+            "ちゅういがき (Precautionary note)",
+            "ずつう (Headache)",
+            "ていしょく (Set meal)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>予約</span>",
+        "options": [
+            "Paid / Fee charged",
+            "Bank",
+            "Cooking",
+            "Reservation"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>昼ご飯</span>",
+        "options": [
+            "Contact",
+            "Laundry",
+            "Lunch",
+            "No smoking"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "ヘルメット",
+            "材料",
+            "郵便局",
+            "掃除"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会議室</span>",
+        "options": [
+            "Meeting room",
+            "Name",
+            "In preparation",
+            "School"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "昼ご飯",
+            "残業",
+            "材料",
+            "営業時間"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>電車</span>",
+        "options": [
+            "ちゅうい (Caution / Warning)",
+            "しごと (Job / Work)",
+            "でんしゃ (Train)",
+            "へるめっと (Helmet)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レジで （  ）を もらいました。</p>",
+        "options": [
+            "郵便局",
+            "有料",
+            "晩ご飯",
+            "説明書"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>階段</span>",
+        "options": [
+            "Friend",
+            "Job / Work",
+            "Airport",
+            "Stairs"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "銀行",
+            "病院",
+            "無料",
+            "出口"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>先生</span>",
+        "options": [
+            "せんせい (Teacher)",
+            "はんがく (Half price)",
+            "へるめっと (Helmet)",
+            "としょかん (Library)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>住所</span>",
+        "options": [
+            "Phone number",
+            "Address",
+            "Job / Work",
+            "Cold (illness)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>案内</span>",
+        "options": [
+            "ねつ (Fever)",
+            "あんない (Guidance / Information)",
+            "せつめいしょ (Instruction manual)",
+            "りょうり (Cooking)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>問題</span>",
+        "options": [
+            "もんだい (Problem)",
+            "かぜ (Cold (illness))",
+            "でんわ (Telephone)",
+            "じむしつ (Office room)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "現金",
+            "道具",
+            "コピー機",
+            "説明書"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "昼ご飯",
+            "報告",
+            "準備中",
+            "出口"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>開始</span>",
+        "options": [
+            "Time / Hours",
+            "Bill / Check",
+            "Entrance",
+            "Start"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>問題</span>",
+        "options": [
+            "Dinner",
+            "Regular closing day",
+            "Clock / Watch",
+            "Problem"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>安全靴</span>",
+        "options": [
+            "Ticket",
+            "Telephone",
+            "Safety shoes",
+            "Subway"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "定食",
+            "相談",
+            "危険",
+            "書類"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>荷物</span>",
+        "options": [
+            "しょくどう (Cafeteria)",
+            "こしょう (Broken / Out of order)",
+            "にもつ (Luggage / Package)",
+            "がいこくじん (Foreigner)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レジで （  ）を もらいました。</p>",
+        "options": [
+            "住所",
+            "半額",
+            "電話",
+            "入口"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>安全靴</span>",
+        "options": [
+            "Company",
+            "Breakfast",
+            "School",
+            "Safety shoes"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レジで （  ）を もらいました。</p>",
+        "options": [
+            "案内所",
+            "有料",
+            "現金",
+            "使用中"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>電源</span>",
+        "options": [
+            "Question",
+            "Caution / Warning",
+            "Cafeteria",
+            "Power switch"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注文</span>",
+        "options": [
+            "しょるい (Documents)",
+            "ひるごはん (Lunch)",
+            "ちゅうもん (Order (food))",
+            "きって (Postal stamp)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>非常口</span>",
+        "options": [
+            "れんらく (Contact)",
+            "やすみ (Holiday / Break)",
+            "かくにん (Confirmation)",
+            "ひじょうぐち (Emergency exit)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注意</span>",
+        "options": [
+            "Copy machine",
+            "School",
+            "Hospital",
+            "Caution / Warning"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レストランで （  ）を たのみました。</p>",
+        "options": [
+            "定食",
+            "有料",
+            "保険証",
+            "危険"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>半額</span>",
+        "options": [
+            "はんがく (Half price)",
+            "ばんごはん (Dinner)",
+            "としょかん (Library)",
+            "かいし (Start)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "安全靴",
+            "喫煙所",
+            "家族",
+            "朝ご飯"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>図書館</span>",
+        "options": [
+            "でんしゃ (Train)",
+            "たちいりきんし (Do not enter)",
+            "としょかん (Library)",
+            "かいもの (Shopping)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>半額</span>",
+        "options": [
+            "きゅうりょう (Salary)",
+            "しょるい (Documents)",
+            "やくそく (Appointment / Promise)",
+            "はんがく (Half price)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "荷物",
+            "連絡",
+            "予約",
+            "外国人"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>約束</span>",
+        "options": [
+            "Appointment / Promise",
+            "School",
+            "Preparation",
+            "End"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レストランで （  ）を たのみました。</p>",
+        "options": [
+            "郵便局",
+            "出口",
+            "時計",
+            "昼ご飯"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>医者</span>",
+        "options": [
+            "きんえん (No smoking)",
+            "いしゃ (Doctor)",
+            "くすり (Medicine)",
+            "ぎんこう (Bank)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>家族</span>",
+        "options": [
+            "Regular closing day",
+            "In preparation",
+            "Family",
+            "Caution / Warning"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レストランで （  ）を たのみました。</p>",
+        "options": [
+            "電車",
+            "朝ご飯",
+            "切手",
+            "買い物"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>名前</span>",
+        "options": [
+            "Emergency exit",
+            "No smoking",
+            "Stairs",
+            "Name"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>洗濯</span>",
+        "options": [
+            "Entrance",
+            "Appointment / Promise",
+            "Office room",
+            "Laundry"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>使用中</span>",
+        "options": [
+            "くうこう (Airport)",
+            "じむしつ (Office room)",
+            "うけつけ (Reception desk)",
+            "しようちゅう (In use)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>銀行</span>",
+        "options": [
+            "Time / Hours",
+            "Documents",
+            "Bank",
+            "Button"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>案内所</span>",
+        "options": [
+            "せんたく (Laundry)",
+            "しょくどう (Cafeteria)",
+            "あんないじょ (Information desk)",
+            "うけつけ (Reception desk)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>空港</span>",
+        "options": [
+            "Airport",
+            "Smoking area",
+            "Safety shoes",
+            "Reception desk"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "道具",
+            "材料",
+            "友達",
+            "給料"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "相談",
+            "案内所",
+            "電源",
+            "ヘルメット"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "友達",
+            "割引",
+            "受付",
+            "安全靴"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>質問</span>",
+        "options": [
+            "Question",
+            "Doctor",
+            "Cold (illness)",
+            "Set meal"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>仕事</span>",
+        "options": [
+            "Question",
+            "Cafeteria",
+            "Job / Work",
+            "Guidance / Information"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>連絡</span>",
+        "options": [
+            "Headache",
+            "Police box",
+            "Contact",
+            "Caution / Warning"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "営業時間",
+            "使用中",
+            "休み",
+            "住所"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "保険証",
+            "給料",
+            "出張",
+            "図書館"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>質問</span>",
+        "options": [
+            "しゅうりょう (End)",
+            "しつもん (Question)",
+            "ねつ (Fever)",
+            "ともだち (Friend)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>準備中</span>",
+        "options": [
+            "In preparation",
+            "Fever",
+            "Letter",
+            "Gloves"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "準備中",
+            "領収書",
+            "銀行",
+            "営業時間"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>残業</span>",
+        "options": [
+            "Discount",
+            "Overtime work",
+            "Time / Hours",
+            "Breakfast"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>事務室</span>",
+        "options": [
+            "Office room",
+            "Copy machine",
+            "Laundry",
+            "School"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>準備</span>",
+        "options": [
+            "Preparation",
+            "Fever",
+            "Tool",
+            "Documents"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>ここは あぶないですから、（  ）の サインを 見てください。</p>",
+        "options": [
+            "問題",
+            "駐車場",
+            "禁煙",
+            "会計"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>ここは あぶないですから、（  ）の サインを 見てください。</p>",
+        "options": [
+            "ゴミ箱",
+            "空港",
+            "コピー機",
+            "注意"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>領収書</span>",
+        "options": [
+            "Receipt",
+            "Reception desk",
+            "Question",
+            "Contact"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>定休日</span>",
+        "options": [
+            "きっぷ (Ticket)",
+            "ていきゅうび (Regular closing day)",
+            "いしゃ (Doctor)",
+            "ていしょく (Set meal)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "銀行",
+            "荷物",
+            "食堂",
+            "終了"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>仕事</span>",
+        "options": [
+            "Job / Work",
+            "Smoking area",
+            "Airport",
+            "Time / Hours"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>先生</span>",
+        "options": [
+            "かいし (Start)",
+            "せんせい (Teacher)",
+            "むりょう (Free of charge)",
+            "なまえ (Name)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>連絡</span>",
+        "options": [
+            "れんらく (Contact)",
+            "せんたく (Laundry)",
+            "わりびき (Discount)",
+            "ほうこく (Report)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>部屋</span>",
+        "options": [
+            "Stairs",
+            "Fever",
+            "Start",
+            "Room"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>椅子</span>",
+        "options": [
+            "えいぎょうじかん (Business hours)",
+            "かぞく (Family)",
+            "いす (Chair)",
+            "でぐち (Exit)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>駅で （  ）を 買いました。</p>",
+        "options": [
+            "地下鉄",
+            "作業着",
+            "頭痛",
+            "荷物"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会計</span>",
+        "options": [
+            "Bill / Check",
+            "Reservation",
+            "Salary",
+            "End"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>駅で （  ）を 買いました。</p>",
+        "options": [
+            "準備中",
+            "駅",
+            "荷物",
+            "質問"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>定休日</span>",
+        "options": [
+            "Regular closing day",
+            "Bill / Check",
+            "Reservation",
+            "Start"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>使用中</span>",
+        "options": [
+            "In use",
+            "Phone number",
+            "Stairs",
+            "Precautionary note"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>出張</span>",
+        "options": [
+            "きって (Postal stamp)",
+            "かいもの (Shopping)",
+            "しゅっちょう (Business trip)",
+            "きんえん (No smoking)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "駅",
+            "料理",
+            "ヘルメット",
+            "食堂"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レストランで （  ）を たのみました。</p>",
+        "options": [
+            "禁煙",
+            "椅子",
+            "荷物",
+            "会計"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "書類",
+            "ボタン",
+            "出張",
+            "半額"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>家族</span>",
+        "options": [
+            "ひるごはん (Lunch)",
+            "えいぎょうじかん (Business hours)",
+            "かぞく (Family)",
+            "しつもん (Question)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "道具",
+            "注文",
+            "安全靴",
+            "出口"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>割引</span>",
+        "options": [
+            "Danger",
+            "Discount",
+            "Tool",
+            "Contact"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会社</span>",
+        "options": [
+            "としょかん (Library)",
+            "しごと (Job / Work)",
+            "ひじょうぐち (Emergency exit)",
+            "かいしゃ (Company)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>名前</span>",
+        "options": [
+            "ゆうびんきょく (Post office)",
+            "なまえ (Name)",
+            "げんきん (Cash)",
+            "しゅっちょう (Business trip)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "注文",
+            "半額",
+            "非常口",
+            "階段"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>電源</span>",
+        "options": [
+            "Power switch",
+            "Office room",
+            "Parking lot",
+            "Family"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>給料</span>",
+        "options": [
+            "こぴーき (Copy machine)",
+            "きゅうりょう (Salary)",
+            "どうぐ (Tool)",
+            "ぼたん (Button)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>立入禁止</span>",
+        "options": [
+            "Meeting room",
+            "Library",
+            "Do not enter",
+            "Office room"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>安全靴</span>",
+        "options": [
+            "じゅんびちゅう (In preparation)",
+            "あんぜんぐつ (Safety shoes)",
+            "ちゅうもん (Order (food))",
+            "くすり (Medicine)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注意</span>",
+        "options": [
+            "Reception desk",
+            "Caution / Warning",
+            "No smoking",
+            "Cold (illness)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>家族</span>",
+        "options": [
+            "かぞく (Family)",
+            "あんない (Guidance / Information)",
+            "つくえ (Desk)",
+            "しごと (Job / Work)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>禁煙</span>",
+        "options": [
+            "No smoking",
+            "Gloves",
+            "Business hours",
+            "Caution / Warning"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注文</span>",
+        "options": [
+            "えいぎょうじかん (Business hours)",
+            "かいだん (Stairs)",
+            "かぞく (Family)",
+            "ちゅうもん (Order (food))"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>材料</span>",
+        "options": [
+            "さぎょうぎ (Work clothes)",
+            "ざいりょう (Ingredients / Materials)",
+            "やくそく (Appointment / Promise)",
+            "そうじ (Cleaning)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>交番</span>",
+        "options": [
+            "がいこくじん (Foreigner)",
+            "あんぜんぐつ (Safety shoes)",
+            "やすみ (Holiday / Break)",
+            "こうばん (Police box)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会社</span>",
+        "options": [
+            "Emergency exit",
+            "Guidance / Information",
+            "Work clothes",
+            "Company"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>家族</span>",
+        "options": [
+            "くすり (Medicine)",
+            "がっこう (School)",
+            "かぞく (Family)",
+            "うけつけ (Reception desk)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注文</span>",
+        "options": [
+            "じゅんび (Preparation)",
+            "しごと (Job / Work)",
+            "せんたく (Laundry)",
+            "ちゅうもん (Order (food))"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レジで （  ）を もらいました。</p>",
+        "options": [
+            "無料",
+            "電話",
+            "時計",
+            "領収書"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "保険証",
+            "銀行",
+            "買い物",
+            "道具"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レジで （  ）を もらいました。</p>",
+        "options": [
+            "銀行",
+            "定食",
+            "有料",
+            "電車"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>作業着</span>",
         "options": [
             "Hospital",
-            "Job",
+            "Work clothes",
+            "Start",
+            "Job / Work"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>学校</span>",
+        "options": [
+            "がっこう (School)",
+            "びょういん (Hospital)",
+            "なまえ (Name)",
+            "ぼたん (Button)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>ボタン</span>",
+        "options": [
+            "どうぐ (Tool)",
+            "ぼたん (Button)",
+            "ひじょうぐち (Emergency exit)",
+            "ゆうびんきょく (Post office)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>質問</span>",
+        "options": [
+            "しつもん (Question)",
+            "ちゅういがき (Precautionary note)",
+            "むりょう (Free of charge)",
+            "ゆうりょう (Paid / Fee charged)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>出口</span>",
+        "options": [
+            "Consultation",
+            "Problem",
+            "Exit",
+            "Documents"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>電源</span>",
+        "options": [
+            "Desk",
+            "Power switch",
+            "Report",
+            "Cold (illness)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レストランで （  ）を たのみました。</p>",
+        "options": [
+            "頭痛",
+            "立入禁止",
+            "会計",
+            "書類"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>領収書</span>",
+        "options": [
+            "りょうしゅうしょ (Receipt)",
+            "さぎょうぎ (Work clothes)",
+            "れんらく (Contact)",
+            "あんぜんぐつ (Safety shoes)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>危険</span>",
+        "options": [
+            "Cafeteria",
+            "Consultation",
+            "Danger",
+            "Regular closing day"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>ここは あぶないですから、（  ）の サインを 見てください。</p>",
+        "options": [
+            "駐車場",
+            "机",
+            "洗濯",
+            "立入禁止"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "案内",
+            "友達",
+            "コピー機",
+            "部屋"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>領収書</span>",
+        "options": [
+            "くうこう (Airport)",
+            "りょうしゅうしょ (Receipt)",
+            "せんせい (Teacher)",
+            "そうじ (Cleaning)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "準備",
+            "準備中",
+            "約束",
+            "郵便局"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>質問</span>",
+        "options": [
+            "でんわばんごう (Phone number)",
+            "ざんぎょう (Overtime work)",
+            "しつもん (Question)",
+            "いす (Chair)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>予約</span>",
+        "options": [
+            "Reservation",
+            "Exit",
+            "Family",
+            "Report"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>医者</span>",
+        "options": [
             "Library",
+            "Cooking",
+            "Time / Hours",
+            "Doctor"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>病院</span>",
+        "options": [
+            "しごと (Job / Work)",
+            "よやく (Reservation)",
+            "うけつけ (Reception desk)",
+            "びょういん (Hospital)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>作業着</span>",
+        "options": [
+            "Cash",
+            "Bill / Check",
+            "Work clothes",
+            "Exit"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レジで （  ）を もらいました。</p>",
+        "options": [
+            "立入禁止",
+            "確認",
+            "駐車場",
+            "領収書"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>ここは あぶないですから、（  ）の サインを 見てください。</p>",
+        "options": [
+            "非常口",
+            "残業",
+            "医者",
+            "危険"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>時計</span>",
+        "options": [
+            "Headache",
+            "Chair",
+            "Bank",
+            "Clock / Watch"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会社</span>",
+        "options": [
+            "しゅっちょう (Business trip)",
+            "たちいりきんし (Do not enter)",
+            "かいしゃ (Company)",
+            "はんがく (Half price)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>半額</span>",
+        "options": [
+            "はんがく (Half price)",
+            "もんだい (Problem)",
+            "てぶくろ (Gloves)",
+            "さぎょうぎ (Work clothes)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>入口</span>",
+        "options": [
+            "やくそく (Appointment / Promise)",
+            "むりょう (Free of charge)",
+            "でんわばんごう (Phone number)",
+            "いりぐち (Entrance)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>報告</span>",
+        "options": [
+            "つくえ (Desk)",
+            "ほうこく (Report)",
+            "きつえんじょ (Smoking area)",
+            "むりょう (Free of charge)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "机",
+            "椅子",
+            "休み",
+            "電話"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>切手</span>",
+        "options": [
+            "あんぜんぐつ (Safety shoes)",
+            "きんえん (No smoking)",
+            "ほけんしょう (Insurance card)",
+            "きって (Postal stamp)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "確認",
+            "報告",
+            "説明書",
+            "掃除"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "営業時間",
+            "外国人",
+            "駐車場",
+            "会議室"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>手袋</span>",
+        "options": [
+            "あさごはん (Breakfast)",
+            "じゅうしょ (Address)",
+            "てぶくろ (Gloves)",
+            "ちかてつ (Subway)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>頭痛</span>",
+        "options": [
+            "ざんぎょう (Overtime work)",
+            "きんえん (No smoking)",
+            "ずつう (Headache)",
+            "かぜ (Cold (illness))"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>出張</span>",
+        "options": [
+            "Confirmation",
+            "Business trip",
+            "Instruction manual",
+            "Consultation"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>空港</span>",
+        "options": [
+            "Entrance",
+            "Receipt",
+            "Airport",
+            "Train"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "駅",
+            "休み",
+            "郵便局",
+            "書類"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>仕事</span>",
+        "options": [
+            "いりぐち (Entrance)",
+            "むりょう (Free of charge)",
+            "せんせい (Teacher)",
+            "しごと (Job / Work)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "掃除",
+            "晩ご飯",
+            "受付",
+            "説明書"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "説明書",
+            "出口",
+            "机",
+            "禁煙"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>質問</span>",
+        "options": [
+            "あんないじょ (Information desk)",
+            "しつもん (Question)",
+            "かいぎしつ (Meeting room)",
+            "きんえん (No smoking)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "交番",
+            "会社",
+            "料理",
+            "禁煙"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レストランで （  ）を たのみました。</p>",
+        "options": [
+            "作業着",
+            "頭痛",
+            "注文",
+            "電話"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "約束",
+            "交番",
+            "ヘルメット",
+            "名前"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "会議室",
+            "半額",
+            "使用中",
+            "風邪"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>開始</span>",
+        "options": [
+            "きっぷ (Ticket)",
+            "かいし (Start)",
+            "しゅうりょう (End)",
+            "よやく (Reservation)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "定食",
+            "出張",
+            "書類",
+            "領収書"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>喫煙所</span>",
+        "options": [
+            "じゅんび (Preparation)",
+            "たちいりきんし (Do not enter)",
+            "きつえんじょ (Smoking area)",
+            "ゆうびんきょく (Post office)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>薬</span>",
+        "options": [
+            "Order (food)",
+            "Contact",
+            "Doctor",
+            "Medicine"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "連絡",
+            "晩ご飯",
+            "薬",
+            "安全靴"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>ここは あぶないですから、（  ）の サインを 見てください。</p>",
+        "options": [
+            "道具",
+            "説明書",
+            "営業時間",
+            "危険"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>風邪</span>",
+        "options": [
+            "しごと (Job / Work)",
+            "としょかん (Library)",
+            "かぜ (Cold (illness))",
+            "いりぐち (Entrance)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>熱が ありますから、（  ）へ 行きます。</p>",
+        "options": [
+            "非常口",
+            "先生",
+            "病院",
+            "薬"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レストランで （  ）を たのみました。</p>",
+        "options": [
+            "定食",
+            "病院",
+            "現金",
+            "昼ご飯"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>書類</span>",
+        "options": [
+            "きって (Postal stamp)",
+            "びょういん (Hospital)",
+            "しょるい (Documents)",
+            "じゅうしょ (Address)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>料理</span>",
+        "options": [
+            "Cooking",
+            "Half price",
+            "Documents",
+            "Phone number"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>報告</span>",
+        "options": [
+            "Parking lot",
+            "Teacher",
+            "Lunch",
+            "Report"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "約束",
+            "学校",
+            "案内",
+            "料理"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "入口",
+            "出張",
+            "非常口",
+            "安全靴"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>半額</span>",
+        "options": [
+            "Dinner",
+            "Foreigner",
+            "Broken / Out of order",
+            "Half price"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>質問</span>",
+        "options": [
+            "いしゃ (Doctor)",
+            "しつもん (Question)",
+            "ざいりょう (Ingredients / Materials)",
+            "ごみばこ (Trash bin)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>連絡</span>",
+        "options": [
+            "Bill / Check",
+            "Contact",
+            "Safety shoes",
+            "Job / Work"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>確認</span>",
+        "options": [
+            "Shopping",
+            "Stairs",
+            "Confirmation",
+            "Salary"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>確認</span>",
+        "options": [
+            "Regular closing day",
+            "Medicine",
+            "Confirmation",
+            "Receipt"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>切手</span>",
+        "options": [
+            "むりょう (Free of charge)",
+            "きって (Postal stamp)",
+            "にもつ (Luggage / Package)",
+            "せつめいしょ (Instruction manual)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>先生</span>",
+        "options": [
+            "せんせい (Teacher)",
+            "しょくどう (Cafeteria)",
+            "さぎょうぎ (Work clothes)",
+            "いす (Chair)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>駅で （  ）を 買いました。</p>",
+        "options": [
+            "掃除",
+            "ヘルメット",
+            "時計",
+            "駅"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>定休日</span>",
+        "options": [
+            "きって (Postal stamp)",
+            "ちゅうい (Caution / Warning)",
+            "ていきゅうび (Regular closing day)",
+            "ねつ (Fever)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>半額</span>",
+        "options": [
+            "はんがく (Half price)",
+            "そうじ (Cleaning)",
+            "ざいりょう (Ingredients / Materials)",
+            "てがみ (Letter)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>熱が ありますから、（  ）へ 行きます。</p>",
+        "options": [
+            "保険証",
+            "時計",
+            "掃除",
+            "書類"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "準備",
+            "ゴミ箱",
+            "朝ご飯",
+            "切手"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>開始</span>",
+        "options": [
+            "かいし (Start)",
+            "よやく (Reservation)",
+            "しごと (Job / Work)",
+            "しょるい (Documents)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>荷物</span>",
+        "options": [
+            "Post office",
+            "In use",
+            "Luggage / Package",
+            "Teacher"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>作業着</span>",
+        "options": [
+            "なまえ (Name)",
+            "いりぐち (Entrance)",
+            "じゅうしょ (Address)",
+            "さぎょうぎ (Work clothes)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "晩ご飯",
+            "喫煙所",
+            "問題",
+            "書類"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>有料</span>",
+        "options": [
+            "かぜ (Cold (illness))",
+            "ゆうりょう (Paid / Fee charged)",
+            "しょくどう (Cafeteria)",
+            "しょるい (Documents)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>現金</span>",
+        "options": [
+            "つくえ (Desk)",
+            "しゅうりょう (End)",
+            "げんきん (Cash)",
+            "あさごはん (Breakfast)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>危険</span>",
+        "options": [
+            "じゅんびちゅう (In preparation)",
+            "かいけい (Bill / Check)",
+            "じゅうしょ (Address)",
+            "きけん (Danger)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レストランで （  ）を たのみました。</p>",
+        "options": [
+            "駐車場",
+            "定食",
+            "部屋",
+            "報告"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>連絡</span>",
+        "options": [
+            "Contact",
+            "Problem",
+            "Office room",
+            "Letter"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "道具",
+            "予約",
+            "家族",
+            "住所"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>買い物</span>",
+        "options": [
+            "Subway",
+            "Doctor",
+            "Luggage / Package",
+            "Shopping"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>料理</span>",
+        "options": [
+            "りょうり (Cooking)",
+            "でんげん (Power switch)",
+            "とけい (Clock / Watch)",
+            "ちゅうしゃじょう (Parking lot)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>出口</span>",
+        "options": [
+            "Order (food)",
+            "Ticket",
+            "Salary",
+            "Exit"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>買い物</span>",
+        "options": [
+            "Police box",
+            "Shopping",
+            "In use",
+            "Telephone"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>頭痛</span>",
+        "options": [
+            "Danger",
+            "Headache",
+            "Exit",
+            "Phone number"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "約束",
+            "会計",
+            "時計",
+            "無料"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "ボタン",
+            "電車",
+            "時計",
+            "現金"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>受付</span>",
+        "options": [
+            "かいだん (Stairs)",
+            "じゅうしょ (Address)",
+            "うけつけ (Reception desk)",
+            "かいしゃ (Company)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>駅で （  ）を 買いました。</p>",
+        "options": [
+            "家族",
+            "問題",
+            "電車",
+            "学校"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>医者</span>",
+        "options": [
+            "In preparation",
+            "Doctor",
+            "Medicine",
+            "Trash bin"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>営業時間</span>",
+        "options": [
+            "Friend",
+            "Business hours",
+            "Phone number",
+            "Power switch"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>地下鉄</span>",
+        "options": [
+            "ちかてつ (Subway)",
+            "うけつけ (Reception desk)",
+            "ぼたん (Button)",
+            "たちいりきんし (Do not enter)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>外国人</span>",
+        "options": [
+            "こしょう (Broken / Out of order)",
+            "がいこくじん (Foreigner)",
+            "しごと (Job / Work)",
+            "いす (Chair)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>図書館</span>",
+        "options": [
+            "Gloves",
+            "Safety shoes",
+            "Trash bin",
+            "Library"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>空港</span>",
+        "options": [
+            "りょうり (Cooking)",
+            "でんわばんごう (Phone number)",
+            "くうこう (Airport)",
+            "じゅんび (Preparation)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>階段</span>",
+        "options": [
+            "Caution / Warning",
+            "Stairs",
+            "Shopping",
+            "Bank"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>約束</span>",
+        "options": [
+            "Shopping",
+            "Cafeteria",
+            "Headache",
+            "Appointment / Promise"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "準備",
+            "案内所",
+            "会社",
+            "薬"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "会社",
+            "半額",
+            "住所",
+            "使用中"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>外国人</span>",
+        "options": [
+            "In preparation",
+            "Friend",
+            "Foreigner",
+            "Overtime work"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レストランで （  ）を たのみました。</p>",
+        "options": [
+            "注文",
+            "故障",
+            "図書館",
+            "割引"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "定休日",
+            "交番",
+            "出張",
+            "風邪"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>ここは あぶないですから、（  ）の サインを 見てください。</p>",
+        "options": [
+            "熱",
+            "注意書き",
+            "電話番号",
+            "会社"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "喫煙所",
+            "机",
+            "頭痛",
+            "銀行"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>交番</span>",
+        "options": [
+            "Bill / Check",
+            "Police box",
+            "Preparation",
+            "Lunch"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注意</span>",
+        "options": [
+            "ちゅうい (Caution / Warning)",
+            "ざいりょう (Ingredients / Materials)",
+            "つくえ (Desk)",
+            "げんきん (Cash)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>手袋</span>",
+        "options": [
+            "でんわ (Telephone)",
+            "へるめっと (Helmet)",
+            "てぶくろ (Gloves)",
+            "かくにん (Confirmation)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>領収書</span>",
+        "options": [
+            "あんないじょ (Information desk)",
+            "ぼたん (Button)",
+            "りょうしゅうしょ (Receipt)",
+            "こうばん (Police box)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>掃除</span>",
+        "options": [
+            "そうじ (Cleaning)",
+            "かぜ (Cold (illness))",
+            "きつえんじょ (Smoking area)",
+            "かいし (Start)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "朝ご飯",
+            "会社",
+            "時間",
+            "準備"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "食堂",
+            "地下鉄",
+            "銀行",
+            "住所"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>ゴミ箱</span>",
+        "options": [
+            "Address",
+            "Meeting room",
+            "Trash bin",
+            "Clock / Watch"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "領収書",
+            "予約",
+            "営業時間",
+            "階段"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>故障</span>",
+        "options": [
+            "Helmet",
+            "Cash",
+            "Job / Work",
+            "Broken / Out of order"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>郵便局</span>",
+        "options": [
+            "うけつけ (Reception desk)",
+            "ちかてつ (Subway)",
+            "ゆうびんきょく (Post office)",
+            "やくそく (Appointment / Promise)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>材料</span>",
+        "options": [
+            "Work clothes",
+            "Ingredients / Materials",
+            "Broken / Out of order",
+            "Address"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>報告</span>",
+        "options": [
+            "ほうこく (Report)",
+            "しょるい (Documents)",
+            "ずつう (Headache)",
+            "がっこう (School)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>椅子</span>",
+        "options": [
+            "しごと (Job / Work)",
+            "くすり (Medicine)",
+            "いす (Chair)",
+            "かいだん (Stairs)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レストランで （  ）を たのみました。</p>",
+        "options": [
+            "手袋",
+            "給料",
+            "会計",
+            "準備中"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "手紙",
+            "電話",
+            "連絡",
+            "学校"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>準備中</span>",
+        "options": [
+            "きって (Postal stamp)",
+            "じゅんびちゅう (In preparation)",
+            "えき (Train station)",
+            "ちゅうい (Caution / Warning)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "ボタン",
+            "出口",
+            "友達",
+            "報告"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>報告</span>",
+        "options": [
+            "Contact",
+            "Trash bin",
+            "Report",
+            "Order (food)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "机",
+            "部屋",
+            "無料",
+            "時計"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>ヘルメット</span>",
+        "options": [
+            "Helmet",
+            "Smoking area",
+            "Parking lot",
+            "Name"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>掃除</span>",
+        "options": [
+            "In use",
+            "In preparation",
+            "Cleaning",
+            "Precautionary note"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>約束</span>",
+        "options": [
+            "Ingredients / Materials",
+            "Appointment / Promise",
+            "Hospital",
+            "Problem"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "熱",
+            "確認",
+            "案内",
+            "道具"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>荷物</span>",
+        "options": [
+            "しょるい (Documents)",
+            "かいけい (Bill / Check)",
+            "じゅんび (Preparation)",
+            "にもつ (Luggage / Package)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>残業</span>",
+        "options": [
+            "Information desk",
+            "Name",
+            "Insurance card",
+            "Overtime work"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>安全靴</span>",
+        "options": [
+            "Safety shoes",
+            "Meeting room",
+            "In preparation",
+            "Job / Work"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>郵便局</span>",
+        "options": [
+            "Post office",
+            "Clock / Watch",
+            "Half price",
+            "Laundry"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "相談",
+            "郵便局",
+            "外国人",
+            "危険"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "連絡",
+            "郵便局",
+            "説明書",
+            "安全靴"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "事務室",
+            "割引",
+            "喫煙所",
+            "掃除"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>使用中</span>",
+        "options": [
+            "Tool",
+            "Instruction manual",
+            "In use",
+            "Police box"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>時間</span>",
+        "options": [
+            "Time / Hours",
+            "Dinner",
+            "Work clothes",
+            "Postal stamp"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "営業時間",
+            "先生",
+            "会社",
+            "電話"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>定食</span>",
+        "options": [
+            "きっぷ (Ticket)",
+            "じゅうしょ (Address)",
+            "ざんぎょう (Overtime work)",
+            "ていしょく (Set meal)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>事務室</span>",
+        "options": [
+            "Overtime work",
+            "Office room",
+            "Business trip",
+            "Meeting room"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>終了</span>",
+        "options": [
+            "Phone number",
+            "Business trip",
+            "Shopping",
+            "End"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "出張",
+            "家族",
+            "立入禁止",
+            "出口"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>病院</span>",
+        "options": [
+            "Bank",
+            "Hospital",
+            "Doctor",
+            "Foreigner"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>駅で （  ）を 買いました。</p>",
+        "options": [
+            "切符",
+            "定休日",
+            "家族",
+            "質問"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>手紙</span>",
+        "options": [
+            "きゅうりょう (Salary)",
+            "こうばん (Police box)",
+            "ほうこく (Report)",
+            "てがみ (Letter)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会社</span>",
+        "options": [
+            "かいしゃ (Company)",
+            "せつめいしょ (Instruction manual)",
+            "むりょう (Free of charge)",
+            "きつえんじょ (Smoking area)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>報告</span>",
+        "options": [
+            "ていきゅうび (Regular closing day)",
+            "りょうり (Cooking)",
+            "ほうこく (Report)",
+            "ぼたん (Button)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>受付</span>",
+        "options": [
+            "りょうしゅうしょ (Receipt)",
+            "うけつけ (Reception desk)",
+            "ていきゅうび (Regular closing day)",
+            "ごみばこ (Trash bin)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>晩ご飯</span>",
+        "options": [
+            "Dinner",
+            "Name",
+            "Cooking",
+            "Work clothes"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>外国人</span>",
+        "options": [
+            "Button",
+            "Foreigner",
+            "Overtime work",
+            "Letter"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>住所</span>",
+        "options": [
+            "じゅうしょ (Address)",
+            "れんらく (Contact)",
+            "ひるごはん (Lunch)",
+            "がいこくじん (Foreigner)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>ヘルメット</span>",
+        "options": [
+            "Trash bin",
+            "Entrance",
+            "Telephone",
+            "Helmet"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会議室</span>",
+        "options": [
+            "Overtime work",
+            "Half price",
+            "Holiday / Break",
+            "Meeting room"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "連絡",
+            "危険",
+            "休み",
+            "相談"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>約束</span>",
+        "options": [
+            "やくそく (Appointment / Promise)",
+            "かぞく (Family)",
+            "そうじ (Cleaning)",
+            "しょくどう (Cafeteria)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "残業",
+            "材料",
+            "給料",
+            "使用中"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>確認</span>",
+        "options": [
+            "Confirmation",
+            "Precautionary note",
+            "Entrance",
             "School"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>熱が ありますから、（  ）へ 行きます。</p>",
+        "options": [
+            "風邪",
+            "頭痛",
+            "図書館",
+            "荷物"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>予約</span>",
+        "options": [
+            "Luggage / Package",
+            "Clock / Watch",
+            "Reservation",
+            "Subway"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>報告</span>",
+        "options": [
+            "Business hours",
+            "Problem",
+            "Name",
+            "Report"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>定食</span>",
+        "options": [
+            "Tool",
+            "Instruction manual",
+            "Set meal",
+            "Copy machine"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>手紙</span>",
+        "options": [
+            "いしゃ (Doctor)",
+            "りょうしゅうしょ (Receipt)",
+            "かいだん (Stairs)",
+            "てがみ (Letter)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>駅</span>",
+        "options": [
+            "きけん (Danger)",
+            "えき (Train station)",
+            "ほうこく (Report)",
+            "きって (Postal stamp)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>問題</span>",
+        "options": [
+            "Problem",
+            "Cooking",
+            "Smoking area",
+            "Hospital"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>椅子</span>",
+        "options": [
+            "Cleaning",
+            "Police box",
+            "Paid / Fee charged",
+            "Chair"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>時計</span>",
+        "options": [
+            "Report",
+            "Clock / Watch",
+            "Problem",
+            "Time / Hours"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "出口",
+            "熱",
+            "受付",
+            "仕事"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>階段</span>",
+        "options": [
+            "じかん (Time / Hours)",
+            "りょうしゅうしょ (Receipt)",
+            "かいだん (Stairs)",
+            "やくそく (Appointment / Promise)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注文</span>",
+        "options": [
+            "Salary",
+            "Order (food)",
+            "Reception desk",
+            "Hospital"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>電車</span>",
+        "options": [
+            "Room",
+            "Train",
+            "Teacher",
+            "Fever"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>有料</span>",
+        "options": [
+            "Business hours",
+            "Problem",
+            "Police box",
+            "Paid / Fee charged"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注意</span>",
+        "options": [
+            "Reception desk",
+            "Bank",
+            "Caution / Warning",
+            "Cafeteria"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>学校</span>",
+        "options": [
+            "Business trip",
+            "Subway",
+            "Fever",
+            "School"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>昼ご飯</span>",
+        "options": [
+            "Holiday / Break",
+            "Lunch",
+            "Airport",
+            "End"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>書類</span>",
+        "options": [
+            "Teacher",
+            "Cold (illness)",
+            "Documents",
+            "Regular closing day"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>準備中</span>",
+        "options": [
+            "Friend",
+            "Set meal",
+            "In preparation",
+            "Hospital"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>空港</span>",
+        "options": [
+            "Letter",
+            "Desk",
+            "Half price",
+            "Airport"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注意</span>",
+        "options": [
+            "Ingredients / Materials",
+            "Caution / Warning",
+            "Airport",
+            "Letter"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "買い物",
+            "電話番号",
+            "書類",
+            "椅子"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注意</span>",
+        "options": [
+            "ちゅうい (Caution / Warning)",
+            "じむしつ (Office room)",
+            "ざんぎょう (Overtime work)",
+            "こしょう (Broken / Out of order)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>保険証</span>",
+        "options": [
+            "Train station",
+            "Guidance / Information",
+            "Teacher",
+            "Insurance card"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "荷物",
+            "銀行",
+            "階段",
+            "食堂"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "準備中",
+            "友達",
+            "椅子",
+            "時間"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>終了</span>",
+        "options": [
+            "きゅうりょう (Salary)",
+            "そうじ (Cleaning)",
+            "しゅうりょう (End)",
+            "かいもの (Shopping)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "出張",
+            "事務室",
+            "食堂",
+            "外国人"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>空港</span>",
+        "options": [
+            "Train station",
+            "Reservation",
+            "Airport",
+            "Information desk"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>ボタン</span>",
+        "options": [
+            "ちゅうもん (Order (food))",
+            "そうじ (Cleaning)",
+            "げんきん (Cash)",
+            "ぼたん (Button)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注意</span>",
+        "options": [
+            "ちゅうい (Caution / Warning)",
+            "びょういん (Hospital)",
+            "ざいりょう (Ingredients / Materials)",
+            "でんわ (Telephone)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注意</span>",
+        "options": [
+            "こしょう (Broken / Out of order)",
+            "ちゅうい (Caution / Warning)",
+            "じゅんび (Preparation)",
+            "もんだい (Problem)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レストランで （  ）を たのみました。</p>",
+        "options": [
+            "朝ご飯",
+            "会計",
+            "非常口",
+            "荷物"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>約束</span>",
+        "options": [
+            "くうこう (Airport)",
+            "でんしゃ (Train)",
+            "やくそく (Appointment / Promise)",
+            "かいぎしつ (Meeting room)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "出口",
+            "故障",
+            "切符",
+            "終了"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "書類",
+            "洗濯",
+            "荷物",
+            "薬"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レジで （  ）を もらいました。</p>",
+        "options": [
+            "電車",
+            "準備中",
+            "領収書",
+            "空港"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>非常口</span>",
+        "options": [
+            "あんない (Guidance / Information)",
+            "そうだん (Consultation)",
+            "ひじょうぐち (Emergency exit)",
+            "こうばん (Police box)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>終了</span>",
+        "options": [
+            "しゅうりょう (End)",
+            "きっぷ (Ticket)",
+            "ほうこく (Report)",
+            "かいだん (Stairs)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>案内</span>",
+        "options": [
+            "きんえん (No smoking)",
+            "ひるごはん (Lunch)",
+            "しようちゅう (In use)",
+            "あんない (Guidance / Information)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>準備</span>",
+        "options": [
+            "ほけんしょう (Insurance card)",
+            "えき (Train station)",
+            "つくえ (Desk)",
+            "じゅんび (Preparation)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>割引</span>",
+        "options": [
+            "こしょう (Broken / Out of order)",
+            "しごと (Job / Work)",
+            "あんないじょ (Information desk)",
+            "わりびき (Discount)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>医者</span>",
+        "options": [
+            "しようちゅう (In use)",
+            "でぐち (Exit)",
+            "こうばん (Police box)",
+            "いしゃ (Doctor)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "入口",
+            "時間",
+            "残業",
+            "切手"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "書類",
+            "事務室",
+            "無料",
+            "電源"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "質問",
+            "準備中",
+            "風邪",
+            "買い物"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>洗濯</span>",
+        "options": [
+            "きって (Postal stamp)",
+            "きんえん (No smoking)",
+            "ぎんこう (Bank)",
+            "せんたく (Laundry)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レジで （  ）を もらいました。</p>",
+        "options": [
+            "半額",
+            "買い物",
+            "約束",
+            "確認"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "ヘルメット",
+            "手袋",
+            "荷物",
+            "使用中"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>駅で （  ）を 買いました。</p>",
+        "options": [
+            "地下鉄",
+            "立入禁止",
+            "時計",
+            "食堂"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>現金</span>",
+        "options": [
+            "Postal stamp",
+            "Library",
+            "Broken / Out of order",
+            "Cash"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "熱",
+            "割引",
+            "掃除",
+            "禁煙"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>電車</span>",
+        "options": [
+            "せんたく (Laundry)",
+            "しょくどう (Cafeteria)",
+            "くすり (Medicine)",
+            "でんしゃ (Train)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>電話</span>",
+        "options": [
+            "Telephone",
+            "Friend",
+            "Smoking area",
+            "End"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会議室</span>",
+        "options": [
+            "Bill / Check",
+            "Confirmation",
+            "Meeting room",
+            "Family"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>椅子</span>",
+        "options": [
+            "Train station",
+            "Chair",
+            "Do not enter",
+            "School"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>学校</span>",
+        "options": [
+            "School",
+            "Exit",
+            "Chair",
+            "Smoking area"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "定休日",
+            "報告",
+            "領収書",
+            "質問"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>階段</span>",
+        "options": [
+            "Guidance / Information",
+            "Appointment / Promise",
+            "Stairs",
+            "Ingredients / Materials"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "注文",
+            "時計",
+            "電話番号",
+            "コピー機"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "連絡",
+            "風邪",
+            "質問",
+            "電源"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>質問</span>",
+        "options": [
+            "Copy machine",
+            "School",
+            "Question",
+            "Stairs"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>交番</span>",
+        "options": [
+            "こうばん (Police box)",
+            "きんえん (No smoking)",
+            "れんらく (Contact)",
+            "ぼたん (Button)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>先生</span>",
+        "options": [
+            "Order (food)",
+            "Teacher",
+            "Ticket",
+            "Subway"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>電話</span>",
+        "options": [
+            "Trash bin",
+            "Bank",
+            "Postal stamp",
+            "Telephone"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>切手</span>",
+        "options": [
+            "きって (Postal stamp)",
+            "むりょう (Free of charge)",
+            "きっぷ (Ticket)",
+            "りょうしゅうしょ (Receipt)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>先生</span>",
+        "options": [
+            "でんげん (Power switch)",
+            "あんない (Guidance / Information)",
+            "そうじ (Cleaning)",
+            "せんせい (Teacher)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>仕事</span>",
+        "options": [
+            "Helmet",
+            "Shopping",
+            "Job / Work",
+            "Button"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>買い物</span>",
+        "options": [
+            "Lunch",
+            "Report",
+            "Shopping",
+            "Information desk"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>問題</span>",
+        "options": [
+            "れんらく (Contact)",
+            "くうこう (Airport)",
+            "つくえ (Desk)",
+            "もんだい (Problem)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>買い物</span>",
+        "options": [
+            "Free of charge",
+            "Button",
+            "Shopping",
+            "Tool"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "駅",
+            "開始",
+            "郵便局",
+            "報告"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>報告</span>",
+        "options": [
+            "Report",
+            "School",
+            "Cafeteria",
+            "Chair"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>割引</span>",
+        "options": [
+            "Discount",
+            "Job / Work",
+            "Laundry",
+            "Half price"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>駐車場</span>",
+        "options": [
+            "Caution / Warning",
+            "Parking lot",
+            "Teacher",
+            "In preparation"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>受付</span>",
+        "options": [
+            "ゆうりょう (Paid / Fee charged)",
+            "うけつけ (Reception desk)",
+            "りょうり (Cooking)",
+            "じかん (Time / Hours)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>晩ご飯</span>",
+        "options": [
+            "ばんごはん (Dinner)",
+            "でんわ (Telephone)",
+            "あんないじょ (Information desk)",
+            "でぐち (Exit)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>先生</span>",
+        "options": [
+            "Teacher",
+            "Problem",
+            "Postal stamp",
+            "Letter"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>先生</span>",
+        "options": [
+            "Time / Hours",
+            "Company",
+            "Teacher",
+            "Postal stamp"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "出口",
+            "病院",
+            "準備中",
+            "書類"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>禁煙</span>",
+        "options": [
+            "Room",
+            "No smoking",
+            "Overtime work",
+            "Chair"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "学校",
+            "出口",
+            "ヘルメット",
+            "料理"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>給料</span>",
+        "options": [
+            "きゅうりょう (Salary)",
+            "わりびき (Discount)",
+            "かぜ (Cold (illness))",
+            "かぞく (Family)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>禁煙</span>",
+        "options": [
+            "きんえん (No smoking)",
+            "ていきゅうび (Regular closing day)",
+            "げんきん (Cash)",
+            "あんない (Guidance / Information)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>危険</span>",
+        "options": [
+            "つくえ (Desk)",
+            "かいもの (Shopping)",
+            "かぜ (Cold (illness))",
+            "きけん (Danger)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "使用中",
+            "質問",
+            "交番",
+            "事務室"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>熱</span>",
+        "options": [
+            "ねつ (Fever)",
+            "ちかてつ (Subway)",
+            "ていきゅうび (Regular closing day)",
+            "やすみ (Holiday / Break)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>駅で （  ）を 買いました。</p>",
+        "options": [
+            "電源",
+            "駅",
+            "外国人",
+            "時間"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "駐車場",
+            "晩ご飯",
+            "出口",
+            "準備中"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注意書き</span>",
+        "options": [
+            "いす (Chair)",
+            "ちゅういがき (Precautionary note)",
+            "こしょう (Broken / Out of order)",
+            "かいしゃ (Company)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>熱が ありますから、（  ）へ 行きます。</p>",
+        "options": [
+            "終了",
+            "作業着",
+            "故障",
+            "頭痛"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>確認</span>",
+        "options": [
+            "でんわばんごう (Phone number)",
+            "こしょう (Broken / Out of order)",
+            "ちゅうしゃじょう (Parking lot)",
+            "かくにん (Confirmation)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>駅で （  ）を 買いました。</p>",
+        "options": [
+            "会社",
+            "空港",
+            "住所",
+            "準備"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>入口</span>",
+        "options": [
+            "ていしょく (Set meal)",
+            "りょうしゅうしょ (Receipt)",
+            "いりぐち (Entrance)",
+            "えいぎょうじかん (Business hours)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>材料</span>",
+        "options": [
+            "Instruction manual",
+            "Helmet",
+            "Postal stamp",
+            "Ingredients / Materials"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>空港</span>",
+        "options": [
+            "がいこくじん (Foreigner)",
+            "かぜ (Cold (illness))",
+            "しょくどう (Cafeteria)",
+            "くうこう (Airport)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "準備",
+            "故障",
+            "食堂",
+            "危険"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>銀行</span>",
+        "options": [
+            "Appointment / Promise",
+            "Police box",
+            "Bank",
+            "Post office"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>熱が ありますから、（  ）へ 行きます。</p>",
+        "options": [
+            "風邪",
+            "学校",
+            "質問",
+            "ボタン"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>無料</span>",
+        "options": [
+            "いしゃ (Doctor)",
+            "くうこう (Airport)",
+            "むりょう (Free of charge)",
+            "よやく (Reservation)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "荷物",
+            "開始",
+            "学校",
+            "買い物"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>有料</span>",
+        "options": [
+            "Smoking area",
+            "Train station",
+            "Paid / Fee charged",
+            "Room"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>切手</span>",
+        "options": [
+            "Postal stamp",
+            "Airport",
+            "Desk",
+            "Holiday / Break"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>ボタン</span>",
+        "options": [
+            "かいけい (Bill / Check)",
+            "しつもん (Question)",
+            "げんきん (Cash)",
+            "ぼたん (Button)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>薬</span>",
+        "options": [
+            "Medicine",
+            "Meeting room",
+            "Business trip",
+            "Free of charge"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>洗濯</span>",
+        "options": [
+            "Police box",
+            "Laundry",
+            "Luggage / Package",
+            "Emergency exit"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>熱が ありますから、（  ）へ 行きます。</p>",
+        "options": [
+            "立入禁止",
+            "電車",
+            "風邪",
+            "駐車場"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>駐車場</span>",
+        "options": [
+            "ちゅうしゃじょう (Parking lot)",
+            "ねつ (Fever)",
+            "せんせい (Teacher)",
+            "ぎんこう (Bank)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>入口</span>",
+        "options": [
+            "とけい (Clock / Watch)",
+            "うけつけ (Reception desk)",
+            "どうぐ (Tool)",
+            "いりぐち (Entrance)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会議室</span>",
+        "options": [
+            "Meeting room",
+            "Safety shoes",
+            "Headache",
+            "Room"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注意</span>",
+        "options": [
+            "ちゅうい (Caution / Warning)",
+            "しゅっちょう (Business trip)",
+            "かいけい (Bill / Check)",
+            "にもつ (Luggage / Package)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>コピー機</span>",
+        "options": [
+            "Copy machine",
+            "Smoking area",
+            "Precautionary note",
+            "Company"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>非常口</span>",
+        "options": [
+            "Ticket",
+            "Emergency exit",
+            "Headache",
+            "Bank"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>入口</span>",
+        "options": [
+            "いりぐち (Entrance)",
+            "そうじ (Cleaning)",
+            "ほけんしょう (Insurance card)",
+            "ひるごはん (Lunch)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "注意",
+            "出張",
+            "危険",
+            "質問"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>地下鉄</span>",
+        "options": [
+            "Postal stamp",
+            "Subway",
+            "Letter",
+            "Order (food)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>禁煙</span>",
+        "options": [
+            "きんえん (No smoking)",
+            "どうぐ (Tool)",
+            "でぐち (Exit)",
+            "ちゅういがき (Precautionary note)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>終了</span>",
+        "options": [
+            "がいこくじん (Foreigner)",
+            "ひるごはん (Lunch)",
+            "きけん (Danger)",
+            "しゅうりょう (End)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>手袋</span>",
+        "options": [
+            "Library",
+            "Lunch",
+            "Discount",
+            "Gloves"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>現金</span>",
+        "options": [
+            "Business hours",
+            "Name",
+            "Trash bin",
+            "Cash"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>準備中</span>",
+        "options": [
+            "こしょう (Broken / Out of order)",
+            "しようちゅう (In use)",
+            "じゅんびちゅう (In preparation)",
+            "ほうこく (Report)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会社</span>",
+        "options": [
+            "Teacher",
+            "Company",
+            "Documents",
+            "Contact"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>領収書</span>",
+        "options": [
+            "りょうしゅうしょ (Receipt)",
+            "げんきん (Cash)",
+            "でんげん (Power switch)",
+            "あんぜんぐつ (Safety shoes)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "道具",
+            "連絡",
+            "時間",
+            "住所"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>領収書</span>",
+        "options": [
+            "Ingredients / Materials",
+            "Receipt",
+            "Company",
+            "School"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "給料",
+            "家族",
+            "朝ご飯",
+            "注意"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "椅子",
+            "準備中",
+            "事務室",
+            "切手"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "仕事",
+            "案内所",
+            "洗濯",
+            "手紙"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>熱が ありますから、（  ）へ 行きます。</p>",
+        "options": [
+            "入口",
+            "報告",
+            "薬",
+            "切手"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>机</span>",
+        "options": [
+            "さぎょうぎ (Work clothes)",
+            "つくえ (Desk)",
+            "しょくどう (Cafeteria)",
+            "ちかてつ (Subway)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "受付",
+            "友達",
+            "定休日",
+            "料理"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>相談</span>",
+        "options": [
+            "Parking lot",
+            "Consultation",
+            "Letter",
+            "Dinner"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>出張</span>",
+        "options": [
+            "かぜ (Cold (illness))",
+            "しゅっちょう (Business trip)",
+            "ひじょうぐち (Emergency exit)",
+            "あんないじょ (Information desk)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "机",
+            "切手",
+            "定休日",
+            "朝ご飯"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>有料</span>",
+        "options": [
+            "ゆうりょう (Paid / Fee charged)",
+            "きけん (Danger)",
+            "そうじ (Cleaning)",
+            "くうこう (Airport)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>領収書</span>",
+        "options": [
+            "じかん (Time / Hours)",
+            "ひじょうぐち (Emergency exit)",
+            "りょうしゅうしょ (Receipt)",
+            "ねつ (Fever)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "質問",
+            "約束",
+            "階段",
+            "荷物"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>定休日</span>",
+        "options": [
+            "Desk",
+            "Headache",
+            "Room",
+            "Regular closing day"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>予約</span>",
+        "options": [
+            "Helmet",
+            "Reservation",
+            "Entrance",
+            "Documents"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>定食</span>",
+        "options": [
+            "Set meal",
+            "Copy machine",
+            "Job / Work",
+            "Family"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "材料",
+            "問題",
+            "階段",
+            "風邪"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>薬</span>",
+        "options": [
+            "Postal stamp",
+            "Room",
+            "Medicine",
+            "Danger"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>約束</span>",
+        "options": [
+            "Teacher",
+            "Business trip",
+            "Appointment / Promise",
+            "Business hours"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>保険証</span>",
+        "options": [
+            "ほけんしょう (Insurance card)",
+            "じゅんびちゅう (In preparation)",
+            "あんぜんぐつ (Safety shoes)",
+            "ていきゅうび (Regular closing day)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "電源",
+            "ゴミ箱",
+            "予約",
+            "仕事"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>禁煙</span>",
+        "options": [
+            "End",
+            "No smoking",
+            "Smoking area",
+            "Dinner"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "無料",
+            "報告",
+            "注意",
+            "開始"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>領収書</span>",
+        "options": [
+            "きって (Postal stamp)",
+            "でんげん (Power switch)",
+            "もんだい (Problem)",
+            "りょうしゅうしょ (Receipt)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レストランで （  ）を たのみました。</p>",
+        "options": [
+            "名前",
+            "事務室",
+            "朝ご飯",
+            "使用中"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "故障",
+            "先生",
+            "コピー機",
+            "洗濯"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>交番</span>",
+        "options": [
+            "はんがく (Half price)",
+            "ちゅうい (Caution / Warning)",
+            "ちゅうもん (Order (food))",
+            "こうばん (Police box)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>使用中</span>",
+        "options": [
+            "しようちゅう (In use)",
+            "ざいりょう (Ingredients / Materials)",
+            "はんがく (Half price)",
+            "じゅうしょ (Address)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>残業</span>",
+        "options": [
+            "Overtime work",
+            "No smoking",
+            "Reservation",
+            "Do not enter"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>連絡</span>",
+        "options": [
+            "Contact",
+            "Precautionary note",
+            "In preparation",
+            "Family"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "仕事",
+            "椅子",
+            "準備",
+            "図書館"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>切手</span>",
+        "options": [
+            "Regular closing day",
+            "Postal stamp",
+            "Company",
+            "Letter"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>領収書</span>",
+        "options": [
+            "Hospital",
+            "Order (food)",
+            "In use",
+            "Receipt"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "立入禁止",
+            "駅",
+            "確認",
+            "切手"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>駅</span>",
+        "options": [
+            "えき (Train station)",
+            "ごみばこ (Trash bin)",
+            "せんせい (Teacher)",
+            "じむしつ (Office room)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>郵便局</span>",
+        "options": [
+            "Smoking area",
+            "Stairs",
+            "Preparation",
+            "Post office"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "材料",
+            "外国人",
+            "案内",
+            "銀行"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "ボタン",
+            "材料",
+            "約束",
+            "禁煙"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>給料</span>",
+        "options": [
+            "いす (Chair)",
+            "ちかてつ (Subway)",
+            "てがみ (Letter)",
+            "きゅうりょう (Salary)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>作業着</span>",
+        "options": [
+            "つくえ (Desk)",
+            "もんだい (Problem)",
+            "へるめっと (Helmet)",
+            "さぎょうぎ (Work clothes)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>郵便局</span>",
+        "options": [
+            "Gloves",
+            "Power switch",
+            "Helmet",
+            "Post office"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "仕事",
+            "洗濯",
+            "受付",
+            "定休日"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>入口</span>",
+        "options": [
+            "Postal stamp",
+            "Entrance",
+            "Copy machine",
+            "Free of charge"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レジで （  ）を もらいました。</p>",
+        "options": [
+            "会計",
+            "半額",
+            "買い物",
+            "準備"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "風邪",
+            "注文",
+            "残業",
+            "電話番号"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>約束</span>",
+        "options": [
+            "あさごはん (Breakfast)",
+            "くうこう (Airport)",
+            "うけつけ (Reception desk)",
+            "やくそく (Appointment / Promise)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>熱</span>",
+        "options": [
+            "じむしつ (Office room)",
+            "しゅっちょう (Business trip)",
+            "りょうり (Cooking)",
+            "ねつ (Fever)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>書類</span>",
+        "options": [
+            "Cash",
+            "Friend",
+            "Post office",
+            "Documents"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>ここは あぶないですから、（  ）の サインを 見てください。</p>",
+        "options": [
+            "割引",
+            "使用中",
+            "案内",
+            "危険"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>準備中</span>",
+        "options": [
+            "Office room",
+            "In preparation",
+            "Caution / Warning",
+            "Cold (illness)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>書類</span>",
+        "options": [
+            "Documents",
+            "Luggage / Package",
+            "Regular closing day",
+            "Instruction manual"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>コピー機</span>",
+        "options": [
+            "こぴーき (Copy machine)",
+            "げんきん (Cash)",
+            "ほうこく (Report)",
+            "ゆうびんきょく (Post office)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>確認</span>",
+        "options": [
+            "そうじ (Cleaning)",
+            "かくにん (Confirmation)",
+            "こしょう (Broken / Out of order)",
+            "ゆうりょう (Paid / Fee charged)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>学校</span>",
+        "options": [
+            "Ticket",
+            "School",
+            "Reception desk",
+            "Trash bin"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>駅で （  ）を 買いました。</p>",
+        "options": [
+            "地下鉄",
+            "電話番号",
+            "医者",
+            "電源"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>切手</span>",
+        "options": [
+            "Office room",
+            "Postal stamp",
+            "Room",
+            "Business hours"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>報告</span>",
+        "options": [
+            "Problem",
+            "Report",
+            "Caution / Warning",
+            "Office room"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "名前",
+            "終了",
+            "友達",
+            "ゴミ箱"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "作業着",
+            "案内",
+            "質問",
+            "休み"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>学校</span>",
+        "options": [
+            "School",
+            "Contact",
+            "Receipt",
+            "Question"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会社</span>",
+        "options": [
+            "Postal stamp",
+            "Half price",
+            "Train",
+            "Company"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "買い物",
+            "郵便局",
+            "問題",
+            "故障"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "郵便局",
+            "入口",
+            "先生",
+            "予約"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>買い物</span>",
+        "options": [
+            "かいもの (Shopping)",
+            "としょかん (Library)",
+            "くうこう (Airport)",
+            "じゅうしょ (Address)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>空港</span>",
+        "options": [
+            "Ingredients / Materials",
+            "Cash",
+            "Breakfast",
+            "Airport"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "風邪",
+            "報告",
+            "定食",
+            "割引"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>階段</span>",
+        "options": [
+            "へや (Room)",
+            "てぶくろ (Gloves)",
+            "きつえんじょ (Smoking area)",
+            "かいだん (Stairs)"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>給料</span>",
+        "options": [
+            "Salary",
+            "Office room",
+            "Train station",
+            "Chair"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>切手</span>",
+        "options": [
+            "じむしつ (Office room)",
+            "きって (Postal stamp)",
+            "やくそく (Appointment / Promise)",
+            "ちかてつ (Subway)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "準備",
+            "終了",
+            "禁煙",
+            "頭痛"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>現金</span>",
+        "options": [
+            "Lunch",
+            "Do not enter",
+            "Regular closing day",
+            "Cash"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>毎日 （  ）を 使います。</p>",
+        "options": [
+            "案内所",
+            "朝ご飯",
+            "保険証",
+            "営業時間"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>仕事の まえに、（  ）を 確認してください。</p>",
+        "options": [
+            "割引",
+            "頭痛",
+            "掃除",
+            "ボタン"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>準備中</span>",
+        "options": [
+            "Contact",
+            "Cafeteria",
+            "Smoking area",
+            "In preparation"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>駅で （  ）を 買いました。</p>",
+        "options": [
+            "電車",
+            "連絡",
+            "机",
+            "住所"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "開始",
+            "朝ご飯",
+            "昼ご飯",
+            "荷物"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>レジで （  ）を もらいました。</p>",
+        "options": [
+            "学校",
+            "割引",
+            "領収書",
+            "ヘルメット"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>手袋</span>",
+        "options": [
+            "Report",
+            "Gloves",
+            "Salary",
+            "Set meal"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>入口</span>",
+        "options": [
+            "Foreigner",
+            "Cold (illness)",
+            "Entrance",
+            "Half price"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>昼ご飯</span>",
+        "options": [
+            "りょうり (Cooking)",
+            "ひるごはん (Lunch)",
+            "ほうこく (Report)",
+            "しょくどう (Cafeteria)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>掃除</span>",
+        "options": [
+            "Ticket",
+            "Family",
+            "Cleaning",
+            "Subway"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>あしたは ９時に （  ）へ 行きます。</p>",
+        "options": [
+            "書類",
+            "注意書き",
+            "電車",
+            "朝ご飯"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>病院</span>",
+        "options": [
+            "ひるごはん (Lunch)",
+            "びょういん (Hospital)",
+            "そうじ (Cleaning)",
+            "かいもの (Shopping)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>風邪</span>",
+        "options": [
+            "Caution / Warning",
+            "Business hours",
+            "Cold (illness)",
+            "Bank"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>ここは あぶないですから、（  ）の サインを 見てください。</p>",
+        "options": [
+            "昼ご飯",
+            "作業着",
+            "割引",
+            "危険"
+        ],
+        "answer": 3
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>銀行</span>",
+        "options": [
+            "Subway",
+            "Cash",
+            "Bank",
+            "Start"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>終了</span>",
+        "options": [
+            "Smoking area",
+            "Receipt",
+            "End",
+            "Lunch"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>外国人</span>",
+        "options": [
+            "がいこくじん (Foreigner)",
+            "せつめいしょ (Instruction manual)",
+            "はんがく (Half price)",
+            "しゅうりょう (End)"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>領収書</span>",
+        "options": [
+            "Shopping",
+            "Contact",
+            "Receipt",
+            "Breakfast"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>注意書き</span>",
+        "options": [
+            "Precautionary note",
+            "Subway",
+            "Cold (illness)",
+            "Holiday / Break"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会議室</span>",
+        "options": [
+            "じむしつ (Office room)",
+            "でんわばんごう (Phone number)",
+            "かいぎしつ (Meeting room)",
+            "れんらく (Contact)"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 漢字の 読み方を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>会社</span>",
+        "options": [
+            "ちゅういがき (Precautionary note)",
+            "かいしゃ (Company)",
+            "うけつけ (Reception desk)",
+            "かいだん (Stairs)"
+        ],
+        "answer": 1
+    },
+    {
+        "q": "（  ）に 入る 言葉を 選んでください。<br><br><p style='font-size: 1.3rem;'>すみません、（  ）は どこですか。</p>",
+        "options": [
+            "洗濯",
+            "会社",
+            "喫煙所",
+            "名前"
+        ],
+        "answer": 2
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>洗濯</span>",
+        "options": [
+            "Laundry",
+            "Clock / Watch",
+            "Name",
+            "Bank"
+        ],
+        "answer": 0
+    },
+    {
+        "q": "この 言葉の 意味を 選んでください。<br><br><span style='font-size: 2rem; border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 6px;'>空港</span>",
+        "options": [
+            "Airport",
+            "Ticket",
+            "Entrance",
+            "Parking lot"
         ],
         "answer": 0
     }

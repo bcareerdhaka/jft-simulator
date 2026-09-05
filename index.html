@@ -85,20 +85,26 @@
             { section: "Reading Comprehension", q: "この標識はどういう意味ですか。<br><br><b style='color:red; font-size: 1.5rem;'>【立入禁止】</b>", options: ["ここから入ってください。", "ここは入ってはいけません。", "ここで止まってください。", "走らないでください。"], answer: 1, isAudio: false }
         ];
 
-        async function startExam() {
+  async function startExam() {
             try {
-                // Fetch the JSON file you generated with Python
                 const response = await fetch('./vocab_questions.json');
                 if (!response.ok) throw new Error("JSON not found");
-                const vocabData = await response.json();
+                const allVocab = await response.json();
                 
-                // Add a section label to the generated vocab questions
-                const formattedVocab = vocabData.map(q => ({ section: "Script and Vocabulary", q: q.q, options: q.options, answer: q.answer, isAudio: false }));
+                // Shuffle all 500 questions and take 50 for a full test
+                const shuffledVocab = allVocab.sort(() => 0.5 - Math.random()).slice(0, 50);
                 
-                // Combine Python questions with static questions
+                const formattedVocab = shuffledVocab.map(q => ({
+                    section: "Script and Vocabulary",
+                    q: q.q,
+                    options: q.options,
+                    answer: q.answer,
+                    isAudio: false
+                }));
+                
                 questions = [...formattedVocab, ...staticQuestions];
             } catch (error) {
-                alert("Could not load vocab_questions.json. Make sure you ran the Python script and uploaded the JSON file to GitHub alongside index.html! Loading default questions instead.");
+                alert("Could not load vocab_questions.json. Falling back to default questions.");
                 questions = [...staticQuestions];
             }
 
